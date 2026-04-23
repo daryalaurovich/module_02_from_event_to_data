@@ -1,0 +1,12 @@
+Шаг 2. Определение Внешних Ключей (FK)
+
+Для каждой сущности, которая содержит связи с другими сущностями, определите все внешние ключи (FK).
+
+В таблице cities есть FK country_id, который связывает ее с сущностью countries.
+В таблице customers есть FK city_id, который связывает ее с сущностью cities.
+В таблице employees есть FK city_id и shop_id, которые связывают ее с сущностями cities и shops соответственно.
+В таблице products есть FK category_id, который связывает ее с сущностью categories. 
+В таблице sales есть FK employee_id, customer_id и product_id, которые связывают ее с сущностями employees, customers и products соответственно. 
+В таблице shops есть FK city_id, который связывает ее с сущностью cities.
+
+

@@ -1,0 +1,8 @@
+Шаг 3. Определение связей
+
+Для следующих пар сущностей определите тип связи (1:1, 1:M, M:N):
+
+Products и Sales: 1:M
+Cities и Employees: 1:M
+Countries и Cities: 1:M
+
